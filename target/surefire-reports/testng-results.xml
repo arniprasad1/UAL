@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18772" started-at="2020-05-01T05:59:34Z" finished-at="2020-05-01T05:59:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18772" started-at="2020-05-01T05:59:34Z" finished-at="2020-05-01T05:59:52Z">
+      <class name="E2E.UAL.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E.UAL.HomePageTest@314c508a]" name="initialize" is-config="true" duration-ms="6479" started-at="2020-05-01T00:59:34Z" finished-at="2020-05-01T00:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="CreateTrip()[pri:0, instance:E2E.UAL.HomePageTest@314c508a]" name="CreateTrip" duration-ms="7852" started-at="2020-05-01T00:59:40Z" finished-at="2020-05-01T00:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTrip -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2E.UAL.HomePageTest@314c508a]" name="teardown" is-config="true" duration-ms="4438" started-at="2020-05-01T00:59:48Z" finished-at="2020-05-01T00:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2E.UAL.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
