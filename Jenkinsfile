@@ -1,11 +1,28 @@
-node{
-stage ('SCM Checkout'){
+agent any
+stages{
+stage ('Complile Checkout'){
+  steps{
+   withMaven(maven : 'apache-maven-3.6.3')  
+    {
+    sh 'mvn clean compile'
+  }
+}
+}
+stage ('Testing Stage'){
+  steps{
+   withMaven(maven : 'apache-maven-3.6.3')  
+    {
+    sh 'mvn test'
+  }
+}
+}
+  stage ('Deployment Stage'){
+  steps{
+   withMaven(maven : 'apache-maven-3.6.3')  
+    {
+    sh 'mvn deploy'
+  }
+}
+}
   
-git 'https://github.com/arniprasad1/UAL.git'
-}
-stage('Compile-Package')
-{
-def mvnHome = tool name: 'apache-maven-3.6.3', type: 'maven'  
-  sh"${mvnHome}/bin/mvn package"
-}
 }
