@@ -1,3 +1,5 @@
+Pipeline{
+  
 agent any
 stages{
 stage ('Complile Checkout'){
@@ -10,4 +12,5 @@ stage ('Complile Checkout'){
 }
 
   
+}
 }
