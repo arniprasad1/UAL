@@ -14,7 +14,7 @@ stage ('Complile Checkout'){
 
 		stage ('Testing Stage'){
 		  steps{
-		   dir("E:\\apache-maven-3.6.3-bin.zip\\apache-maven-3.6.3") 
+		   dir("E:\\apache-maven-3.6.3-bin\\apache-maven-3.6.3") 
         {
 		   bat 'mvn test'
 		}
