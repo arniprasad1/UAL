@@ -10,7 +10,7 @@ stage ('Complile Checkout'){
   }
 }
 }
-}
+
 
 		stage ('Testing Stage'){
 		  steps{
@@ -22,6 +22,6 @@ stage ('Complile Checkout'){
 		}
 	
 
-  
+} 
 }
-}
+
